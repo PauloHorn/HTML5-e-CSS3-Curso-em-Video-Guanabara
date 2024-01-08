@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
+    <title>Imagens Dinâmicas, Áudios e Vídeos</title>
+</head>
+<body>
+    <h1>Imagens dinâmicas</h1>
+    <p>Abaixo inserimos uma imagem que se ajusta ao tamanho da tela onde está sendo exibida. Além da tag <strong>img</strong>, estamos usando a tag <strong>picture</strong> e a tag <strong>source</strong>.</p>
+    <picture>
+        <source media="(max-width: 650px)" srcset="foto-p.jpg" type="image/png">
+        <source media="(max-width: 750px)" srcset="foto-m.jpg" type="image/png">
+        <img src="foto-g.jpg" alt="A imagem flexível funciona">
+    </picture>
+<h1>Áudios</h1>
+<p>Para inserirmos audio, precisamos das tags <strong>audio</strong> e <strong>source</strong>, e abaixo você pode ver o resultado.</p>
+<audio preload="metadata" controls autoplay loop>
+    <source src="media/welcometoneworleans.mp3" type="audio/mpeg">
+</audio>
+<p>Caso seu navegador não suporte áudios, clique <a href="media/welcometoneworleans.mp3" download="welcometoneworleans.mp3" type="audio/mpeg">aqui</a> para baixar</p>
+<h1>Vídeos</h1>
+<p>Para inserirmos vídeos, precisamos das tags video e souce e abaixo você pode ver o resultado.</p>
+<video width="600" poster="thub.jpg" controls autoplay>
+    <source src="media/auroraaprontando.mp4" type="video/mp4">
+    <source src="media/auroraaprontando.webm" type="video/webm">
+    <source src="media/auroraaprontando.ogv" type="video/ogg">
+</video>
+<p>Caso seu navegador não suporte vídeos, clique <a href="media/auroraaprontando.mp4" download="auroraaprontando.mp4" type="audio/mpeg">aqui</a> para baixar</p>
+<p>Os arquivos que são mais comuns e com maiores chances de serem suportados pelos navegadores são <strong>webm, mp4 e ogv</strong>.</p>
+<p>Uma informação importantíssima sobre a hospedagem de vídeos, É MUITO CARO! A melhor solução é hospedar em locais como Youtube (são públicos, grátis para hospedar, mas é mais difícil de controlar o acesso, mas são os mais rápidos de carregar e transmitir) ou Vimeo (mais fácil de controlar o acesso e o compartilhamento mas são pagos e mais demorados)</p>
+<p>Depois de hospedados em um servidor, compartilhamos através do botão compartilhar no site da hospedagem, que fornece o código pronto para isso.</p>
+<p>Abaixo você pode ver um exemplo disso, onde mostramos um dos vídos do canal Curso em Vídeo, de onde estou tirando esses conhecimentos, através do ensino do professor Guanabara.</p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/cAgkwPWE4hU?si=PAhSydLRN7laQIxs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</body>
+</html>

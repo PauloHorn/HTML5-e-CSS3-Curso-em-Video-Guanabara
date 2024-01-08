@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Tipos de Listas</title>
+</head>
+<body>
+    <h1>Tipos de Listas</h1>
+    <h2>Listas não ordenadas (unordered lists)</h2>
+    <p>Segue abaixo um exemplo de lista não ordenada, usamos a tag <strong>ul</strong> para criar a lista e a tag <strong>li</strong> para cada item.</p>
+    <ul>
+        <li>vamos</li>
+        <li>digitar</li>
+        <li>qualquer</li>
+        <li>coisa</li>
+        <li>aqui</li>
+    </ul>
+    <h2>Listas ordenadas (ordered lists)</h2>
+    <p>Segue abaixo um exemplo de lista ordenada, usamos a tag <strong>ol</strong> para criar a lista e a tag <strong>li</strong> para cada item.</p>
+    <ol>
+        <li>também</li>
+        <li>digitaremos</li>
+        <li>qualquer</li>
+        <li>coisa</li>
+    </ol>
+    <h2>Identificadores dos itens nas listas</h2>
+    <h3>Listas ordenadas</h3>
+    <p>Podemos usar os seguintes identificadores nas listas ordenadas no parâmetro <strong>type</strong>, e também podemos determinar de que valor ela iniciará com o parâmetro <strong>start</strong>:</p>
+    <ul>
+        <li>1 - lista numérica, por padrão começa assim</li>
+        <li>A - letras maiúsculas</li>
+        <li>a - letras minúsculas</li>
+        <li>I - numerais romanos maiúsculos</li>
+        <li>i - numerais romanos minúsculos</li>
+    </ul>
+    <h3>Listas não ordenadas</h3>
+    <ul>
+        <li>disc - bola totalmente preta, por padrão começa assim</li>
+        <li>circle - disco com as bordas pretas e interior sem preenchimento</li>
+        <li>square - quadrados totalmente pretos</li>
+    </ul>
+    <h2>Exemplos de listas</h2>
+    <h3>Lista ordenada</h3>
+    <ol>
+        <li>qualquer</li>
+        <li>coisa</li>
+        <ol type="A">
+            <li>lista</li>
+            <li>dentro</li>
+            <li>de</li>
+            <li>outra</li>
+            <li>lista</li>
+        </ol>
+        <li>para</li>
+        <ol type="i" start="3">
+            <li>começando</li>
+            <li>de</li>
+            <li>um</li>
+            <li>valor</li>
+            <li>definido</li>
+        </ol>
+        <li>treinarmos</li>
+    </ol>
+    <h3>Lista não ordenada</h3>
+    <ul>
+        <li>qualquer</li>
+        <li>coisa</li>
+        <ul type="circle">
+            <li>lista</li>
+            <li>com</li>
+            <li>círculos</li>
+        </ul>
+        <li>para</li>
+        <ul type="square">
+            <li>lista</li>
+            <li>com</li>
+            <li>quadrados</li>
+        </ul>
+        <li>treinarmos</li>
+    </ul>
+    <h1>Lista de Definições</h1>
+    <p>É como se fosse um dicionário, com os termos e suas descrições, mas sem demarcadores.</p>
+    <p>Toda lista de definições é criado com a tag <strong>dl</strong> (definition list), cada um dos termos é criado com a tag <strong>dt</strong> (definition term) e cada uma das descrições é criada com a tag <strong>dd</strong> (definition description).</p>
+    <h2>Exemplo de lista de definições</h2>
+    <dl>
+        <dt>HTML</dt>
+        <dd>Linguagem de marcação utilizada para criar o conteúdo de um site</dd>
+        <dt>CSS</dt>
+        <dd>Linguagem de marcação para a especificação de estilos dos sites</dd>
+        <dt>JavaScript</dt>
+        <dd>Linguagem de programação para deixar os sites mais interativos</dd>
+    </dl>
+</body>
+</html>

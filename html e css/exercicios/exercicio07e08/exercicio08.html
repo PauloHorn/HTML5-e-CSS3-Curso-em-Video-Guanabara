@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Treinando Semântica</title>
+    <style>
+        mark {
+            background-color: aqua;
+        }
+    </style>
+</head>
+<body>
+        <h1>Principais formatações</h1>
+    <h2>Negrito / Destaque</h2>
+    <p>Nesta frase, tenho um <strong>termo em destaque</strong> usando a tag STRONG (semântica)</p>
+    <h2>Itálico / Ênfase</h2>
+    <p>Nesta frase, temos um <em>termo em ênfase</em> usando a tag EM (semântica)</p>
+    <h2>Texto marcado</h2>
+    <p>Podemos criar um <mark>texto marcado</mark> e também <mark style="background-color: limegreen;">um outro texto marcado</mark> com sua estilização própria, usando a tag MARK.</p>
+    <h2>Texto grande e pequeno</h2>
+    <p>Estamos criando um <big>texto grande</big> e um <small>texto pequeno</small> nesse parágrafo, lembrando que a tag BIG está obsoleta e pode parar de funcionar a qualquer momento.</p>
+    <h2>Texto deletado</h2>
+    <p>Podemos marcar <del>um texto como excluído</del> para indicar que ele deve ser lido, mas não considerado, com a tag DEL.</p>
+    <h2>Texto inserido</h2>
+    <p>Podemos marcar <ins>um texto como inserido</ins> para dar ênfase e indicar que ele foi inserido depois, com a tag INS</p>
+    <h2>Textos sobrescrito e subscrito</h2>
+    <p>Podemos escrever coisas do tipo x<sup>20</sup> + 3 e coisas como H<sub>2</sub>O, com as tags SUP e SUB</p>
+    <h1>Outras formatações</h1>
+    <h2>Código-fonte / Pré-formatação</h2>
+    <p>O comando <code>document.getElementById('teste')</code> é escrito em linguagem JavaScript.</p>
+    <pre><code>
+        num = int(input('Digite um número'))
+        if num % 2 == 0:
+            printf('O número {num} é PAR')
+        else:
+            printf('O número {num} é IMPAR')
+        printf('Fim do programa')
+    </code></pre>
+    <h2>Citações simples</h2>
+    <p>Como diria o pai de um amigo: <q>o computador é um burro muito rápido</q></p>
+    <h2>Citações completas</h2>
+    <p>Segundo Jeff Noble, no seu livro HTML para Leigos:</p>
+    <blockquote cite="digitar URL da citação">A diferença entre elementos inline e um bloco de texto é importante. Os elementos HTML neste capítulo descrevem os blocos de texto.</blockquote>
+    <h2>Abrevições</h2>
+    <p>Estou estudando <abbr title="HyperText Markup Language">HTML</abbr> e <abbr title="Cascading Styles Sheets">CSS</abbr>. Estou adorando!</p>
+    <h2>Texto invertido???</h2>
+    <bdo dir="rtl">Estou aprendendo a criar coisas em HTML.</bdo>
+</body>
+</html>
